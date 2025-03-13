@@ -25,7 +25,7 @@ import people02 from "./people03.png";
 import people03 from "./people03.png";
 import mastercard from "./mastercard.png";
 import visa from "./visa.png";
-import unionpay from "./unionpay.png";
+import unionpay from "./Unionpay.png";
 import paypak from "./paypak.png"
 import UblPay from "./Aggregators/UblPay.png";
 import EdfaPay from "./Aggregators/EdfaPay.png";

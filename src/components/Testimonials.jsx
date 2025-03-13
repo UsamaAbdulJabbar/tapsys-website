@@ -23,9 +23,9 @@ const Testimonials = () => (
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <h2 className={`${styles.heading2} text-gray-950`}>
+      <h2 className={`${styles.heading2} text-black`}>
         Trusted by <br className="sm:block hidden" />{" "}
-        <span className="text-blue-500">Leading Businesses</span>
+        <span className="text-[#007fcc]">Leading Businesses</span>
       </h2>
       <motion.div
         className="w-full md:mt-0 mt-6"
@@ -34,7 +34,7 @@ const Testimonials = () => (
         transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
       >
         <p
-          className={`${styles.paragraph} text-left max-w-[450px] text-gray-950`}
+          className={`${styles.paragraph} text-left max-w-[450px] text-black`}
         >
           Empowering top businesses with seamless, secure, and innovative
           payment solutions for a future-ready experience.

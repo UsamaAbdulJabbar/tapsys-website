@@ -22,7 +22,7 @@ const Navbar = () => {
     <li
       key={nav.path} // Use path instead of id
       className={`font-poppins font-medium cursor-pointer text-[16px] ${
-        active === nav.title ? "text-blue-500" : "text-black"
+        active === nav.title ? "text-[#007fcc]" : "text-black"
       } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
       onClick={() => setActive(nav.title)}
     >

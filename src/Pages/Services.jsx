@@ -13,7 +13,7 @@ function Services() {
           className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
         >
           <div>
-            <h2 className={`${styles.heading2} text-gray-950`}>
+            <h2 className={`${styles.heading2} text-black`}>
               Our <span className="text-[#007fcc]">Services</span>
             </h2>
           </div>
@@ -26,11 +26,11 @@ function Services() {
           className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
         >
           <div>
-            <h2 className={`${styles.heading2} text-gray-950 text-center`}>
+            <h2 className={`${styles.heading2} text-black text-center`}>
               Small or Large, All Shops Will Now{" "}
               <span className="text-[#007fcc]">Accept Cards!</span>
             </h2>
-            <p className={`${styles.paragraph} text-gray-950 text-center`}>
+            <p className={`${styles.paragraph} text-black text-center`}>
               Have you ever lost sales because customer only wanted to pay with
               card? Sign up now as a merchant and get the right set of POS with
               our variety of POS Terminals. From a conventional POS machine to a

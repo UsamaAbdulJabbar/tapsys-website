@@ -7,8 +7,8 @@ import MerchantsLogo from "./MerchantLogo";
 const Merchants = () => (
   <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
   <div>
-  <h2 className={`${styles.heading2} text-gray-950`}>
-      Our Trusted   <span className="text-blue-500">Merchants</span>
+  <h2 className={`${styles.heading2} text-black`}>
+      Our Trusted   <span className="text-[#007fcc]">Merchants</span>
       </h2>
   </div>
 

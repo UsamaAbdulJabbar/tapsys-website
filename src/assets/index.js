@@ -1,0 +1,112 @@
+import airbnb from "./airbnb.png";
+import bill from "./bill.png";
+import binance from "./binance.png";
+import card from "./card.png";
+import coinbase from "./coinbase.png";
+import dropbox from "./dropbox.png";
+import logo from "./logo.svg";
+import quotes from "./quotes.svg";
+import robot from "./robot.png";
+import send from "./Send.svg";
+import shield from "./Shield.svg";
+import star from "./Star.svg";
+import menu from "./menu.svg";
+import close from "./close.svg";
+import google from "./google.svg";
+import apple from "./apple.svg";
+import arrowUp from "./arrow-up.svg";
+import discount from "./Discount.svg";
+import facebook from "./facebook.svg";
+import instagram from "./instagram.svg";
+import linkedin from "./linkedin.svg";
+import twitter from "./twitter.svg";
+import people01 from "./people01.png";
+import people02 from "./people03.png";
+import people03 from "./people03.png";
+import mastercard from "./mastercard.png";
+import visa from "./visa.png";
+import unionpay from "./unionpay.png";
+import paypak from "./paypak.png"
+import UblPay from "./Aggregators/UblPay.png";
+import EdfaPay from "./Aggregators/EdfaPay.png";
+import KuickPay from "./Aggregators/KuickPay.png";
+import Opay from "./Aggregators/Opay.png";
+import PayFast from "./Aggregators/PayFast.png";
+import SmartOne from "./Aggregators/SmartOne.png";
+import Techbey from "./Aggregators/Techbey.png";
+import Attock from "./Merchants/Attock.png";
+import BinHashim from "./Merchants/BinHashim.png";
+import ChaseUp from "./Merchants/ChaseUp.png";
+import Kashees from "./Merchants/Kashees.png";
+import Khoj from "./Merchants/Khoj.png";
+import PSO from "./Merchants/PSO.png";
+import Saya from "./Merchants/saya.png";
+import Ziauddin from "./Merchants/Ziauddin.png";
+import POS from "./Products/POSdouble.png";
+import MPOS from "./Products/MPOS.png";
+import PayApp from "./Products/PayApp.png";
+import PayAppVideo from "./Products/PayAppVideo.mp4"
+import TapsysOffice from "./Products/tapsysOffice.mp4"
+import founder from "./founder.png";
+import CTO from "./CTO.png";
+import COO from "./COO.png";
+
+
+
+
+export {
+  airbnb,
+  bill,
+  binance,
+  card,
+  coinbase,
+  dropbox,
+  logo,
+  quotes,
+  robot,
+  send,
+  shield,
+  star,
+  menu,
+  close,
+  google,
+  apple,
+  arrowUp,
+  discount,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  people01,
+  people02,
+  people03,
+  mastercard,
+  visa,
+  unionpay,
+  paypak,
+  UblPay,
+  KuickPay,
+  Opay,
+  SmartOne,
+  PayFast,
+  Techbey,
+  EdfaPay,
+  Attock,
+  BinHashim,
+  ChaseUp,
+  Kashees,
+  Khoj,
+  PSO,
+  Saya,
+  Ziauddin,
+  POS,
+  MPOS,
+  PayApp,
+  PayAppVideo,
+  TapsysOffice,
+  founder,
+  CTO,
+  COO,
+  
+
+};

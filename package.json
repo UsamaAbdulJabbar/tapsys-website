@@ -1,12 +1,15 @@
 {
-  "name": "hoobank",
+  "name": "tapsys-website",
+  "home": "https://UsamaAbdulJabbar.github.io/Tapsys_website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.8.3",
@@ -15,6 +18,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "framer-motion": "^10.16.2",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.479.0",
     "nodemailer": "^6.10.0",
     "react": "^18.2.0",

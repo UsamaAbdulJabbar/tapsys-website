@@ -23,7 +23,7 @@ const Testimonials = () => (
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <h2 className={`${styles.heading2} text-black`}>
+      <h2 className={`${styles.heading2} text-gray-950`}>
         Trusted by <br className="sm:block hidden" />{" "}
         <span className="text-blue-500">Leading Businesses</span>
       </h2>
@@ -34,7 +34,7 @@ const Testimonials = () => (
         transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
       >
         <p
-          className={`${styles.paragraph} text-left max-w-[450px] text-black`}
+          className={`${styles.paragraph} text-left max-w-[450px] text-gray-950`}
         >
           Empowering top businesses with seamless, secure, and innovative
           payment solutions for a future-ready experience.

@@ -11,7 +11,7 @@ function Company() {
       {/* About Tapsys Section */}
       <section className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
         <div>
-          <h2 className={`${styles.heading2} text-black`}>
+          <h2 className={`${styles.heading2} text-gray-950`}>
             About <span className="text-[#007fcc]">Tapsys</span>
           </h2>
         </div>
@@ -22,7 +22,7 @@ function Company() {
         <div className="container mx-auto text-center px-4">
           {/* Title */}
           <motion.h2
-            className="text-black text-3xl font-bold"
+            className="text-gray-950 text-3xl font-bold"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
@@ -54,7 +54,7 @@ function Company() {
         {/* Leadership Team Section */}
         <div className="mt-12 container mx-auto px-4">
           <motion.h3
-            className="text-black text-2xl font-bold text-center"
+            className="text-gray-950 text-2xl font-bold text-center"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
@@ -81,7 +81,7 @@ function Company() {
                   alt={member.name}
                   className="w-40 h-40 object-cover rounded-full border-4 border-[#007fcc] mb-4"
                 />
-                <h4 className="text-black text-lg font-semibold">{member.name}</h4>
+                <h4 className="text-gray-950 text-lg font-semibold">{member.name}</h4>
                 <p className="text-gray-600">{member.role}</p>
               </motion.div>
             ))}

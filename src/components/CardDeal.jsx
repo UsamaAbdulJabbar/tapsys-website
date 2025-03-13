@@ -12,12 +12,12 @@ const CardDeal = () => (
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <h2 className={`${styles.heading2} text-black`}>
+      <h2 className={`${styles.heading2} text-gray-950`}>
         Effortless Payments, <br className="sm:block hidden" /> 
         <span className="text-blue-500"> Limitless Possibilities</span>
       </h2>
       <motion.p
-        className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}
+        className={`${styles.paragraph} max-w-[470px] mt-5 text-gray-950`}
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}

@@ -58,7 +58,7 @@ export default function ContactSales() {
     >
       {/* Left Section */}
       <motion.div className="w-full lg:w-1/2">
-        <h2 className={`${styles.heading2} text-black`}>
+        <h2 className={`${styles.heading2} text-gray-950`}>
           Let’s Get Started Contact Our <br />
           <span className="text-[#007fcc]">Sales Team Today!</span>
         </h2>

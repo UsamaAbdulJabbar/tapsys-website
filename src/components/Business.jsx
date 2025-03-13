@@ -44,11 +44,11 @@ const Business = () => (
   <section id="features" className={`${layout.section} my-10`}>
     {/* Left Side - Text Content */}
     <motion.div className={layout.sectionInfo} variants={fadeInLeft} initial="initial" animate="animate">
-      <h2 className={`${styles.heading2} text-black`}>
+      <h2 className={`${styles.heading2} text-gray-950`}>
         You do the business, <br className="sm:block hidden" />
         <span className="text-blue-500">we’ll handle the money.</span>
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-gray-950`}>
         With Tapsys, streamline transactions, enhance security, and unlock seamless payment solutions—all designed to help your business grow effortlessly.
       </p>
 

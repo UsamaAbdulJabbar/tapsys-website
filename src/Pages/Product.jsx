@@ -29,7 +29,7 @@ function Product() {
               className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
             >
               <div>
-                <h2 className={`${styles.heading2} text-black`}>
+                <h2 className={`${styles.heading2} text-gray-950`}>
                   Our <span className="text-[#007fcc]">Products</span>
                 </h2>
               </div>
@@ -49,12 +49,12 @@ function Product() {
     whileInView={{ opacity: 1, x: 0 }}
     transition={{ duration: 1, ease: "easeOut" }}
   >
-    <h2 className={`${styles.heading2} text-black`}>
+    <h2 className={`${styles.heading2} text-gray-950`}>
       Point Of Sale <span className="text-[#007fcc]">Terminal</span>{" "}
       <br className="sm:block hidden" />
     </h2>
     <motion.p
-      className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}
+      className={`${styles.paragraph} max-w-[470px] mt-5 text-gray-950`}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
@@ -83,7 +83,7 @@ function Product() {
       ].map((feature, index) => (
         <div key={index} className="flex items-center space-x-3  p-3  ">
           {feature.icon}
-          <span className="text-black text-lg font-medium">{feature.text}</span>
+          <span className="text-gray-950 text-lg font-medium">{feature.text}</span>
         </div>
       ))}
     </motion.div>
@@ -154,12 +154,12 @@ function Product() {
     whileInView={{ opacity: 1, x: 0 }}
     transition={{ duration: 1, ease: "easeOut" }}
   >
-    <h2 className={`${styles.heading2} text-black`}>
+    <h2 className={`${styles.heading2} text-gray-950`}>
       Mobile <span className="text-[#007fcc]">POS</span>{" "}
       <br className="sm:block hidden" />
     </h2>
     <motion.p
-      className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}
+      className={`${styles.paragraph} max-w-[470px] mt-5 text-gray-950`}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
@@ -186,7 +186,7 @@ function Product() {
       ].map((feature, index) => (
         <div key={index} className="flex items-center space-x-3">
           {feature.icon}
-          <span className="text-black text-lg font-medium">{feature.text}</span>
+          <span className="text-gray-950 text-lg font-medium">{feature.text}</span>
         </div>
       ))}
     </motion.div>
@@ -212,12 +212,12 @@ function Product() {
     whileInView={{ opacity: 1, x: 0 }}
     transition={{ duration: 1, ease: "easeOut" }}
   >
-    <h2 className={`${styles.heading2} text-black`}>
+    <h2 className={`${styles.heading2} text-gray-950`}>
       Merchant <span className="text-[#007fcc]">Mobile App</span>{" "}
       <br className="sm:block hidden" />
     </h2>
     <motion.p
-      className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}
+      className={`${styles.paragraph} max-w-[470px] mt-5 text-gray-950`}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
@@ -242,7 +242,7 @@ function Product() {
       ].map((feature, index) => (
         <div key={index} className="flex items-center space-x-3">
           {feature.icon}
-          <span className="text-black text-lg font-medium">{feature.text}</span>
+          <span className="text-gray-950 text-lg font-medium">{feature.text}</span>
         </div>
       ))}
     </motion.div>

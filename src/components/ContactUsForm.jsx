@@ -2,52 +2,9 @@ import { useState } from "react";
 import { Mail, MapPin, Phone } from "lucide-react";
 import styles from "../style";
 import { motion } from "framer-motion";
-import axios from "axios";
 
 export default function ContactSales() {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    businessName: "",
-    phone: "",
-    address: "",
-    message: "",
-  });
-
   const [alert, setAlert] = useState("");
-
-  // Handle input changes
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  // Form Validation
-  const isFormValid = () => {
-    return Object.values(formData).every((field) => field.trim() !== "");
-  };
-
-  // Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!isFormValid()) {
-      setAlert("⚠️ Please fill out all fields!");
-      return;
-    }
-
-    try {
-      const response = await axios.post("http://localhost:5000/send-email", formData);
-      setAlert(response.data.message);
-      
-      // Reset form fields after successful submission
-      setFormData({ firstName: "", lastName: "", businessName: "", phone: "", address: "", message: "" });
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      setAlert("❌ Failed to send message. Try again later.");
-    }
-  };
 
   return (
     <motion.div 
@@ -82,7 +39,11 @@ export default function ContactSales() {
 
       {/* Right Section (Form) */}
       <motion.div className="w-full lg:w-1/2 bg-[#007fcc] p-8 rounded-xl shadow-md">
-        <form className="space-y-4" onSubmit={handleSubmit}>
+        <form
+          className="space-y-4"
+          action="https://formsubmit.co/db8279da0b1e14e0cf06e59522f4eb6f "
+          method="POST"
+        >
           <p className="text-2xl text-white font-medium">
             Fill the form with your query, and we will get in touch with you.
           </p>
@@ -93,10 +54,9 @@ export default function ContactSales() {
                 key={index}
                 type="text"
                 name={name}
-                value={formData[name]}
-                onChange={handleChange}
                 placeholder={name.replace(/([A-Z])/g, " $1").trim()}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                required
               />
             ))}
           </div>
@@ -106,20 +66,23 @@ export default function ContactSales() {
               key={index}
               type="text"
               name={name}
-              value={formData[name]}
-              onChange={handleChange}
               placeholder={name.replace(/([A-Z])/g, " $1").trim()}
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+              required
             />
           ))}
 
           <textarea
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             placeholder="Your Message"
             className="w-full h-24 px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 resize-none"
+            required
           />
+
+          {/* Hidden Input for Success Redirect */}
+          
+          
+          <input type="hidden" name="_autoresponse" value="Thankyou for contact to Tapsys Services. Our team will get in touch with you soon. Thankyou!"></input>
 
           <button
             type="submit"

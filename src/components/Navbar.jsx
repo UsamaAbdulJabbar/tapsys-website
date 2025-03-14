@@ -10,11 +10,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img 
+    <Link to="/">
+    <img 
   src={logo} 
   alt="Tapsys" 
   className="w-[160px] h-[40px] drop-shadow-[0_0_4px_rgba(0,0,0,0.5)]"
 />
+    </Link>
 
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -23,7 +25,7 @@ const Navbar = () => {
       key={nav.path} // Use path instead of id
       className={`font-poppins font-medium cursor-pointer text-[16px] ${
         active === nav.title ? "text-[#007fcc]" : "text-black"
-      } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+      } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`} 
       onClick={() => setActive(nav.title)}
     >
       <Link to={nav.path}>{nav.title}</Link>  {/* Use nav.path instead of nav.id */}

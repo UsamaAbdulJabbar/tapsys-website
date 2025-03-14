@@ -12,7 +12,7 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   return (
-    <Router basename="/tapsys_website">  {/* ✅ Fix: Use BrowserRouter */}
+    <Router>  {/* ✅ Fix: Use BrowserRouter */}
        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />

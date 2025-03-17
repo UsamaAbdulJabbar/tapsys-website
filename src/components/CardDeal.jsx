@@ -2,6 +2,8 @@ import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { motion } from "framer-motion";
+import { apple, bill, google } from "../assets";
+
 
 const CardDeal = () => (
   <section id="card-deal" className={layout.section}>
@@ -30,10 +32,20 @@ const CardDeal = () => (
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-      >
-        <Button styles={`mt-10`} />
+      > 
+        <a href="https://play.google.com/store/apps/details?id=com.tap_pay&hl=en" target="blank">
+        <motion.img
+          src={google}
+          alt="google_play"
+          className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+        />
+        </a>
       </motion.div>
     </motion.div>
+
+    
 
     {/* Right Side - Animated Image */}
     <motion.div

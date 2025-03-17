@@ -68,6 +68,12 @@ import Bonanza from "./Merchants/Bonanza.png";
 import PC from "./Merchants/PC.jpg";
 import SerenAir from "./Merchants/SereneAir.jpg";
 import Service from "./Merchants/Servis.png";
+import img1 from "./WhyTapsysIcon/1.png";
+import img2 from "./WhyTapsysIcon/2.png";
+import img3 from "./WhyTapsysIcon/3.png";
+import img4 from "./WhyTapsysIcon/4.png";
+import img5 from "./WhyTapsysIcon/5.png";
+import img6 from "./WhyTapsysIcon/6.png";
 
 
 
@@ -131,10 +137,8 @@ export {
   founder,
   CTO,
   COO,
-
   AryGold,
   Byco,
- 
   ChasePlus,
   ChaseValue,
   Haier,
@@ -147,6 +151,15 @@ export {
   Saylani,
   KIPS,
   Bonanza,
-
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  PC,
+  Service,
+  SerenAir,
+  
 
 };

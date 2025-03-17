@@ -248,13 +248,15 @@ function Product() {
     </motion.div>
 
     {/* Animated Button */}
-    <motion.img
+  <a href="https://play.google.com/store/apps/details?id=com.tap_pay&hl=en" target="blank">
+  <motion.img
       src={google}
       alt="google_play"
       className="w-[144.17px] h-[43.08px] object-contain cursor-pointer mt-5"
       whileHover={{ scale: 1.1 }}
       transition={{ duration: 0.3 }}
     />
+  </a>
   </motion.div>
 
   {/* Right Side - Animated Image (Merchant Mobile App) */}

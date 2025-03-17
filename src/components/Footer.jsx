@@ -15,7 +15,7 @@ const Footer = () => (
           className="w-[200px] h-[72.14px] object-contain drop-shadow-[0_0_4px_rgba(0,0,0,0.5)]"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px] text-black`}>
-        Contact Us now as a Merchant and start accepting payments electronically
+        Secure-Seamless-Smart-Payments
         </p>
       </div>
 

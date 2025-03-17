@@ -45,7 +45,7 @@ function Company() {
             <br />
             With the aim to cater to the needs of these Small and Medium Enterprises (SMEs) and
             include them in the financial ecosystem, Paysys Labs (Pvt.) Limited joined hands to form{" "}
-            <span className="text-[#007fcc] font-semibold">Tapsys</span>. It aims to bridge the gap
+            <span className="text-[#007fcc] font-semibold">Tapsys Services Pvt Ltd</span>. It aims to bridge the gap
             between an acquirer and merchants by providing a hands-on technology platform and
             merchant onboarding services.
           </motion.p>

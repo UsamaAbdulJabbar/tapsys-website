@@ -170,7 +170,7 @@ export const footerLinks = [
         link: "/product",
       },
       {
-        name: "Merchnat Mobile App",
+        name: "Merchant Mobile App",
         link: "/product",
       },
       {

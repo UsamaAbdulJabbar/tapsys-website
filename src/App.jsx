@@ -9,6 +9,7 @@ import styles from "./style";
 import ContactSales from "./components/ContactUsForm";
 import TermsConditions from "./Pages/TermsCondition";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
       </div>
     </div> 
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />

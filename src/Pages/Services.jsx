@@ -4,6 +4,7 @@ import styles from "../style";
 import Banner from "../components/Banner";
 import SchemeLogo from "../components/SchemeLogo";
 import Merchants from "../components/Merchants";
+import WhyChooseTapsys from "../components/WhyChooseTapsys";
 
 function Services() {
   return (
@@ -39,7 +40,7 @@ function Services() {
             </p>
           </div>
         </section>
-        <Stats/>
+      <WhyChooseTapsys/>
         <Merchants/>
       </div>
     </div>

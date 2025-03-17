@@ -1,6 +1,7 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 import { motion } from "framer-motion";
+import Button from "./Button";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
@@ -54,20 +55,8 @@ const Billing = () => (
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
       >
-        <motion.img
-          src={apple}
-          alt="apple_store"
-          className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer"
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.3 }}
-        />
-        <motion.img
-          src={google}
-          alt="google_play"
-          className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.3 }}
-        />
+       
+       <Button styles={`mt-10`} />
       </motion.div>
     </motion.div>
   </section>

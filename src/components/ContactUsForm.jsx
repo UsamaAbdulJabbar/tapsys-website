@@ -22,9 +22,9 @@ export default function ContactSales() {
 
         <div className="mt-6 space-y-4">
           {[
-            { Icon: Mail, title: "Email Address", info: "sales@tapsys.net" },
+            { Icon: Mail, title: "Email Address", info: "info@tapsys.net" },
             { Icon: MapPin, title: "Office Address", info: "Office no 1, 4th floor PMSTP, Stadium Road Karachi." },
-            { Icon: Phone, title: "Phone", info: "+92 213 4380180" },
+            { Icon: Phone, title: "UAN", info: "+92 21 111827797" },
           ].map((item, index) => (
             <motion.div key={index} className="flex items-center gap-3">
               <item.Icon className="text-blue-500 w-6 h-6" />

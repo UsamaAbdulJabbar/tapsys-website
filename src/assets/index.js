@@ -45,11 +45,35 @@ import Ziauddin from "./Merchants/Ziauddin.png";
 import POS from "./Products/POSdouble.png";
 import MPOS from "./Products/MPOS.png";
 import PayApp from "./Products/PayApp.png";
-import PayAppVideo from "./Products/PayAppVideo.mp4"
-import TapsysOffice from "./Products/tapsysOffice.mp4"
+import PayAppVideo from "./Products/PayAppVideo.mp4";
+import TapsysOffice from "./Products/tapsysOffice.mp4";
 import founder from "./founder.png";
 import CTO from "./CTO.png";
 import COO from "./COO.png";
+//Merchant Logo
+import ChaseValue from "./Merchants/ChaseValue.png";
+import ChasePlus from "./Merchants/ChasePlus.png";
+import Haier from "./Merchants/Haier.png";
+import JDC from "./Merchants/JDC.png";
+import KGK from "./Merchants/KarachiGymKhana.png";
+import KBC from "./Merchants/KBC.png";
+import Onderland from "./Merchants/Onderland.png";
+import RS from "./Merchants/RehmateShereen.png";
+import Taj from "./Merchants/Taj.png";
+import AryGold from "./Merchants/arygold.jpg";
+import Byco from "./Merchants/Byco.jpg";
+import KIPS from "./Merchants/KIPS.png";
+import Saylani from "./Merchants/Saylani.png";
+import Bonanza from "./Merchants/Bonanza.png";
+import PC from "./Merchants/PC.jpg";
+import SerenAir from "./Merchants/SereneAir.jpg";
+import Service from "./Merchants/Servis.png";
+
+
+
+
+
+
 
 
 
@@ -107,6 +131,22 @@ export {
   founder,
   CTO,
   COO,
-  
+
+  AryGold,
+  Byco,
+ 
+  ChasePlus,
+  ChaseValue,
+  Haier,
+  JDC,
+  KGK,
+  KBC,
+  Onderland,
+  RS,
+  Taj,
+  Saylani,
+  KIPS,
+  Bonanza,
+
 
 };

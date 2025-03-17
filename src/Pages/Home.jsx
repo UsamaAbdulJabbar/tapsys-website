@@ -24,7 +24,7 @@ const Home = () => (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Stats />
+        {/* <Stats /> */}
         <Merchants/>
         <Banner/>
         

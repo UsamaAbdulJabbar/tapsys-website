@@ -18,7 +18,6 @@ import {
        SmartOne,
        Techbey,
        EdfaPay,
-       Attock,
        BinHashim,
        ChaseUp,
        Kashees,
@@ -26,6 +25,21 @@ import {
        PSO,
        Saya,
        Ziauddin,
+       AryGold,
+       Byco,
+       Attock,
+       ChasePlus,
+       ChaseValue,
+       Haier,
+       JDC,
+       KGK,
+       KBC,
+       Onderland,
+       RS,
+       Taj,
+       Saylani,
+       KIPS,
+       Bonanza,
 
 
 
@@ -110,17 +124,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "3800+",
+    value: "10K+",
   },
   {
     id: "stats-2",
     title: "Trusted by Merchants",
-    value: "230+",
+    value: "28K+",
   },
   {
     id: "stats-3",
     title: "Transaction",
-    value: "Pkr 10M+",
+    value: "Pkr 12B+",
   },
 ];
 
@@ -270,5 +284,60 @@ export const merchant = [
   {
     id: "merchant-8",
     logo: Ziauddin,
+  },
+  {
+    id: "merchant-9",
+    logo: AryGold,
+  },
+  {
+    id: "merchant-10",
+    logo: Byco,
+  },
+  {
+    id: "merchant-11",
+    logo: ChasePlus,
+  },
+  {
+    id: "merchant-12",
+    logo: ChaseValue,
+  },
+  {
+    id: "merchant-13",
+    logo: Haier,
+  },
+  {
+    id: "merchant-14",
+    logo: JDC,
+  },
+  {
+    id: "merchant-15",
+    logo: KGK,
+  },
+  {
+    id: "merchant-16",
+    logo: KBC,
+  },
+  {
+    id: "merchant-17",
+    logo: Onderland,
+  },
+  {
+    id: "merchant-18",
+    logo: RS,
+  },
+  {
+    id: "merchant-19",
+    logo: Taj,
+  },
+  {
+    id: "merchant-20",
+    logo: Saylani,
+  },
+  {
+    id: "merchant-21",
+    logo: KIPS,
+  },{
+    id: "merchant-22",
+    logo: Bonanza,
   },
 ];

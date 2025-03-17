@@ -1,8 +1,7 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button";
 import { motion } from "framer-motion";
-import { apple, bill, google } from "../assets";
+import { google } from "../assets";
 
 
 const CardDeal = () => (

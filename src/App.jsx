@@ -11,8 +11,10 @@ import TermsConditions from "./Pages/TermsCondition";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import ScrollToTop from "./components/ScrollToTop";
 
+
 function App() {
   return (
+    
     <Router>  {/* ✅ Fix: Use BrowserRouter */}
        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>

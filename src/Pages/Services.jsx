@@ -1,5 +1,4 @@
 import React from "react";
-import { Hero, Stats } from "../components";
 import styles from "../style";
 import Banner from "../components/Banner";
 import SchemeLogo from "../components/SchemeLogo";

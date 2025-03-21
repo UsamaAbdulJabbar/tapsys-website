@@ -40,6 +40,7 @@ import {
        Saylani,
        KIPS,
        Bonanza,
+       PostEx,
 
 
 
@@ -250,6 +251,10 @@ export const clients = [
     id: "Client-4",
     logo: EdfaPay,
   },
+  {
+    id: "Client-5",
+    logo: PostEx,
+  }
 ];
 
 export const merchant = [
@@ -336,8 +341,10 @@ export const merchant = [
   {
     id: "merchant-21",
     logo: KIPS,
-  },{
+  },
+  {
     id: "merchant-22",
     logo: Bonanza,
   },
+  
 ];

@@ -13,7 +13,7 @@ const Clients = () => (
       {clients.map((client) => (
         <motion.div
           key={client.id}
-          className={`flex-1 ${styles.flexCenter} sm:min-w-[140px] min-w-[120px] m-5`}
+          className={`flex-1 ${styles.flexCenter} sm:min-w-[130px] min-w-[120px] m-5`}
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}

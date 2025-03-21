@@ -41,7 +41,7 @@ export default function ContactSales() {
       <motion.div className="w-full lg:w-1/2 bg-[#007fcc] p-8 rounded-xl shadow-md">
         <form
           className="space-y-4"
-          action="https://formsubmit.co/usama.jabbar@tapsys.net "
+          action="https://formsubmit.co/info@tapsys.net "
           method="POST"
         >
           <p className="text-2xl text-white font-medium">

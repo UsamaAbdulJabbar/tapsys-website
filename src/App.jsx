@@ -1,46 +1,52 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";  // ✅ Fix import
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Footer, Navbar } from "./components";
 import Services from "./Pages/Services";
 import Product from "./Pages/Product";
 import Company from "./Pages/Company";
-import Contact from "./Pages/Contact";  // ✅ Fix: Ensure this is correctly imported
+import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
-import styles from "./style";
-import ContactSales from "./components/ContactUsForm";
 import TermsConditions from "./Pages/TermsCondition";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import ContactSales from "./components/ContactUsForm";
 import ScrollToTop from "./components/ScrollToTop";
-
+import styles from "./style";
 
 function App() {
   return (
-    
-    <Router>  {/* ✅ Fix: Use BrowserRouter */}
-       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
+    <Router>
+      <ScrollToTop /> {/* ✅ Fix: Ensuring scroll behavior */}
+      
+      {/* ✅ Navbar */}
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
       </div>
-    </div> 
-    <ScrollToTop/>
+
+      {/* ✅ Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/product" element={<Product />} />
         <Route path="/company" element={<Company />} />
-        <Route path="/contact" element={<Contact />} />  {/* ✅ Fix: Use Contact instead of ContactSale */}
-        <Route path="/terms" element={<TermsConditions />} />  {/* ✅ Fix: Use Contact instead of ContactSale */}
-        <Route path="/privacy" element={<PrivacyPolicy />} /> 
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<TermsConditions />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
+
+      {/* ✅ Contact Sales */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <ContactSales />
+        <div className={`${styles.boxWidth}`}>
+          <ContactSales />
+        </div>
       </div>
-    </div> 
+
+      {/* ✅ Footer */}
       <div className={`${styles.paddingX} ${styles.flexCenter} mt-5`}>
-      <div className={`${styles.boxWidth}`}>
-        <Footer />
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
+        </div>
       </div>
-    </div> 
     </Router>
   );
 }

@@ -10,7 +10,7 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import ContactSales from "./components/ContactUsForm";
 import ScrollToTop from "./components/ScrollToTop";
 import styles from "./style";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function App() {
   return (
@@ -46,6 +46,7 @@ function App() {
       <div className={`${styles.paddingX} ${styles.flexCenter} mt-5`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
+          
         </div>
       </div>
     </Router>

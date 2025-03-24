@@ -41,6 +41,8 @@ import {
        KIPS,
        Bonanza,
        PostEx,
+       Swich,
+       Udhaar,
 
 
 
@@ -254,6 +256,14 @@ export const clients = [
   {
     id: "Client-5",
     logo: PostEx,
+  },
+  {
+    id:"Client-6",
+    logo: Swich,
+  },
+  {
+    id:"Client-7",
+    logo: Udhaar,
   }
 ];
 

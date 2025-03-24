@@ -74,7 +74,9 @@ import img3 from "./WhyTapsysIcon/3.png";
 import img4 from "./WhyTapsysIcon/4.png";
 import img5 from "./WhyTapsysIcon/5.png";
 import img6 from "./WhyTapsysIcon/6.png";
-import PostEx from "./Aggregators/PostEx.png"
+import PostEx from "./Aggregators/PostEx.png";
+import Swich from "./Aggregators/Swich.jpeg";
+import Udhaar from "./Aggregators/Udhaar.jpeg";
 
 
 
@@ -162,6 +164,8 @@ export {
   Service,
   SerenAir,
   PostEx,
+  Swich,
+  Udhaar,
   
 
 };

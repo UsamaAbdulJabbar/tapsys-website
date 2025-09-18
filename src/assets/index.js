@@ -45,8 +45,8 @@ import Ziauddin from "./Merchants/Ziauddin.png";
 import POS from "./Products/POSdouble.png";
 import MPOS from "./Products/MPOS.png";
 import PayApp from "./Products/PayApp.png";
-import PayAppVideo from "../assets/Video/Video1.mp4";
-import TapsysOffice from "../assets/video/Video2.mp4";
+import PayAppVideo from "./Video/Video1.mp4";
+import TapsysOffice from "./Video/Video2.mp4";
 //Tapsys Team
 
 import BOD2 from "./Team/SalmanMushtaq.png";
@@ -188,5 +188,4 @@ export {
   AlliedBank,
   BOP,
   KE
-
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"; // ✅ Import motion for animations
 import styles from "../style";
-import {founder,CTO,COO,TapsysOffice} from "../assets";
+import {BOD1,BOD2,founder,COO,TapsysOffice, CTO, HOO,HOF} from "../assets";
 // ✅ Import images (replace with actual paths or URLs)
 
 
@@ -44,7 +44,7 @@ function Company() {
             <br />
             <br />
             With the aim to cater to the needs of these Small and Medium Enterprises (SMEs) and
-            include them in the financial ecosystem, Paysys Labs (Pvt.) Limited joined hands to form{" "}
+            include them in the financial ecosystem, <span className="text-[#007fcc] font-semibold">Paysys Labs (Pvt.) Limited</span> joined hands to form{" "}
             <span className="text-[#007fcc] font-semibold">Tapsys Services Pvt Ltd</span>. It aims to bridge the gap
             between an acquirer and merchants by providing a hands-on technology platform and
             merchant onboarding services.
@@ -52,22 +52,31 @@ function Company() {
         </div>
 
         {/* Leadership Team Section */}
+        {/* BOD */}
         <div className="mt-12 container mx-auto px-4">
+          
           <motion.h3
-            className="text-black text-2xl font-bold text-center"
+            className="text-black text-2xl font-bold text-center py-10  "
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            Meet Our Leadership Team
+           <h2 className={`${styles.heading2} text-black`}>
+            Our <span className="text-[#007fcc]">Leadership Team</span>
+          </h2>
           </motion.h3>
-
           {/* Team Members Grid */}
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Board Of Directors */}
+         
+          <div className={`mt-8 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6`}>
             {[
-              { name: "Karim Jindani", role: "Co-Founder & CEO", image: founder },
-              { name: "Azeem Yaseen", role: "Co-Founder & CTO", image: CTO },
-              { name: "Owais Moon", role: "Chief Operating Officer (COO)", image: COO },
+              { name: "Azeem Yaseen", role: "Board Of Director", image: BOD1 },
+              { name: "Salman Mushtq", role: "Board Of Director", image: BOD2 },
+              { name: "Karim Jindani", role: "CEO", image: founder },
+              { name: "Osama Siraj", role: "Chief Technology Officer", image: CTO },
+              { name: "Sohail Hanif", role: "Head Of Operations", image: HOO },
+              { name: "Shakeel Ahmed", role: "Head Of Finance", image: HOF },
+            
             ].map((member, index) => (
               <motion.div
                 key={index}
@@ -87,6 +96,13 @@ function Company() {
             ))}
           </div>
         </div>
+
+       
+
+
+
+
+        
 
 
 

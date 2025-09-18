@@ -45,11 +45,18 @@ import Ziauddin from "./Merchants/Ziauddin.png";
 import POS from "./Products/POSdouble.png";
 import MPOS from "./Products/MPOS.png";
 import PayApp from "./Products/PayApp.png";
-import PayAppVideo from "../../public/Video/Video1.mp4";
-import TapsysOffice from "../../public/Video/Video2.mp4";
+import PayAppVideo from "../assets/Video/Video1.mp4";
+import TapsysOffice from "../assets/video/Video2.mp4";
+//Tapsys Team
+
+import BOD2 from "./Team/SalmanMushtaq.png";
+import BOD1 from "./Team/AzeemYaseen.png";
 import founder from "./founder.png";
-import CTO from "./CTO.png";
+import CTO from "./Team/OsamaSiraj.png";
 import COO from "./COO.png";
+import HOO from "./Team/SohailHanif.png";
+import HOF from "./Team/ShakeelAhmed.png";
+
 //Merchant Logo
 import ChaseValue from "./Merchants/ChaseValue.png";
 import ChasePlus from "./Merchants/ChasePlus.png";
@@ -77,6 +84,10 @@ import img6 from "./WhyTapsysIcon/6.png";
 import PostEx from "./Aggregators/PostEx.png";
 import Swich from "./Aggregators/Swich.jpeg";
 import Udhaar from "./Aggregators/Udhaar.jpeg";
+import FaysalBank from "./Aggregators/FaysalBank.png";
+import AlliedBank from "./Aggregators/AlliedBank.jpg";
+import BOP from "./Aggregators/BOP.png";
+import KE from "./Aggregators/KE.png";
 
 
 
@@ -137,9 +148,16 @@ export {
   PayApp,
   PayAppVideo,
   TapsysOffice,
+  //Tapsys Team
+  //Board of Directors
+  BOD1,
+  BOD2,
   founder,
   CTO,
   COO,
+  HOO,
+  HOF,
+  //Merchant Logo  
   AryGold,
   Byco,
   ChasePlus,
@@ -166,6 +184,9 @@ export {
   PostEx,
   Swich,
   Udhaar,
-  
+  FaysalBank,
+  AlliedBank,
+  BOP,
+  KE
 
 };

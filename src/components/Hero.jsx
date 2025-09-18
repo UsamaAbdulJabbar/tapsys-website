@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "../style";
-import { robot } from "../assets";
+import TapsysProductPic  from "../assets/Products/TapsysProducts.png";
+import robot from "../assets/robot.png";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -72,7 +73,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <motion.img
-          src={robot}
+          src={TapsysProductPic}
           alt="billing"
           className="w-[100%] h-[100%] relative z-[5]"
           initial={{ scale: 0.9, opacity: 0 }}

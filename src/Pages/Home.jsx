@@ -19,8 +19,8 @@ const Home = () => (
     
     <div className={` ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <SchemeLogo/>
         <Business />
+        <SchemeLogo/>
         <Billing />
         <CardDeal />
         <Testimonials />

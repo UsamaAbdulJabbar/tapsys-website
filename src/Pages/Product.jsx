@@ -1,5 +1,6 @@
 import React from "react";
 import { POS,MPOS,PayApp,google,PayAppVideo } from "../assets";
+import SoundBox from "../assets/Products/SoundBox.png";
 import styles, { layout } from "../style";
 import Button from "../components/Button";
 import { motion } from "framer-motion";
@@ -17,6 +18,7 @@ import {
   Nfc,
   QrCode,
   Banknote,
+  Speaker,
 } from "lucide-react";
 
 function Product() {
@@ -203,6 +205,10 @@ function Product() {
 </section>
 
 
+
+
+
+
 {/* Merchant Mobile App */}
 <section id="merchant-app" className={`${layout.section} flex-col lg:flex-row`}>
   {/* Left Side - Animated Text Content */}
@@ -280,6 +286,91 @@ function Product() {
     <div className="absolute z-[0] w-[50%] h-[50%] left-1/2 bottom-0 rounded-full pink__gradient" />
   </motion.div>
 </section>
+
+{/* SoundBOX Section */}
+
+
+<section id="mobile-pos" className={`${layout.section} flex-col-reverse lg:flex-row`}>
+  {/* Left Side - Animated Image (Mobile POS) */}
+  <motion.div
+    className={`${layout.sectionImg} order-2 lg:order-1`}
+    initial={{ opacity: 0, scale: 0.8 }}
+    whileInView={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 1, ease: "easeOut" }}
+  >
+    <motion.img
+      src={SoundBox}
+      alt="Mobile POS"
+      className="h-[455px] w-[530px] object-contain relative z-[5]"
+      initial={{ opacity: 0, x: -50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+    />
+
+    {/* Gradient Effects */}
+    <div className="absolute z-[3] left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+    <div className="absolute z-[0] w-[50%] h-[50%] left-1/2 bottom-0 rounded-full pink__gradient" />
+  </motion.div>
+
+  {/* Right Side - Animated Text Content */}
+  <motion.div
+    className={`${layout.sectionInfo} order-1 lg:order-2`}
+    initial={{ opacity: 0, x: 50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 1, ease: "easeOut" }}
+  >
+    <h2 className={`${styles.heading2} text-black`}>
+      Sound <span className="text-[#007fcc]">BOX</span>{" "}
+      <br className="sm:block hidden" />
+    </h2>
+    <motion.p
+      className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
+    >
+      Tapsys SoundBOX is an innovative payment alert device, designed to simplify digital
+      payments for merchants. By scanning a QR code, customers can pay instantly, 
+      while the device generates a real-time audio confirmation — ensuring trust,
+      speed, and convenience.
+    </motion.p>
+
+    {/* ✅ Feature Points in Rows (2 Per Row) */}
+    <motion.div
+      className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
+    >
+      {[
+        { icon: <Speaker size={28} className="text-[#007fcc]" />, text: "Instant Payment Confirmation with Sound Alerts" },
+        { icon: <QrCode size={28} className="text-[#007fcc]" />, text: "QR Code–Based Digital Payments" },
+        { icon: <Smartphone size={28} className="text-[#007fcc]" />, text: "Compact, Easy-to-Use Design" },
+        { icon: <ShieldCheck size={28} className="text-[#007fcc]" />, text: "Secure & Reliable Transactions" },
+       
+      ].map((feature, index) => (
+        <div key={index} className="flex items-center space-x-3">
+          {feature.icon}
+          <span className="text-black text-lg font-medium">{feature.text}</span>
+        </div>
+      ))}
+    </motion.div>
+
+    {/* Animated Button */}
+    <motion.div
+      initial={{ opacity: 0, scale: 0.8 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1, delay: 0.7, ease: "easeOut" }}
+    >
+      <Button styles={`mt-10`} />
+    </motion.div>
+  </motion.div>
+</section>
+
+
+
+
+
 
 
 

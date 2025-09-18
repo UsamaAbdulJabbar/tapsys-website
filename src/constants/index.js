@@ -43,6 +43,10 @@ import {
        PostEx,
        Swich,
        Udhaar,
+       FaysalBank,
+       AlliedBank,
+       BOP,
+       KE
 
 
 
@@ -230,6 +234,9 @@ export const clients = [
     logo: UblPay,
   },
   {
+    id: "client-1", logo: FaysalBank,
+  },
+  {
     id: "client-2",
     logo: KuickPay,
   },
@@ -264,6 +271,18 @@ export const clients = [
   {
     id:"Client-7",
     logo: Udhaar,
+  },
+  {
+    id:"Client-8",
+    logo: AlliedBank,
+  },
+  {
+    id:"Client-9",
+    logo: BOP,
+  },
+  {
+    id:"Client-10",
+    logo: KE,
   }
 ];
 
@@ -356,5 +375,6 @@ export const merchant = [
     id: "merchant-22",
     logo: Bonanza,
   },
+  
   
 ];

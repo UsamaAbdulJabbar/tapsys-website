@@ -17,7 +17,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base:"/tapsys-website/",
+  base: "./",  // This works for both local serving and GitHub Pages
   plugins: [react()],
   build: {
     rollupOptions: {

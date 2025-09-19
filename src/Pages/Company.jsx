@@ -45,7 +45,7 @@ function Company() {
             <br />
             With the aim to cater to the needs of these Small and Medium Enterprises (SMEs) and
             include them in the financial ecosystem, <span className="text-[#007fcc] font-semibold">Paysys Labs (Pvt.) Limited</span> joined hands to form{" "}
-            <span className="text-[#007fcc] font-semibold">Tapsys Services Pvt Ltd</span>. It aims to bridge the gap
+            <span className="text-[#007fcc] font-semibold">Tapsys Services (Private) Limited</span>. It aims to bridge the gap
             between an acquirer and merchants by providing a hands-on technology platform and
             merchant onboarding services.
           </motion.p>
@@ -71,7 +71,7 @@ function Company() {
           <div className={`mt-8 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6`}>
             {[
               { name: "Azeem Yaseen", role: "Board Of Director", image: BOD1 },
-              { name: "Salman Mushtq", role: "Board Of Director", image: BOD2 },
+              { name: "Salman Mushtaq", role: "Board Of Director", image: BOD2 },
               { name: "Karim Jindani", role: "CEO", image: founder },
               { name: "Osama Siraj", role: "Chief Technology Officer", image: CTO },
               { name: "Sohail Hanif", role: "Head Of Operations", image: HOO },

@@ -66,21 +66,40 @@ function Company() {
           </h2>
           </motion.h3>
           {/* Team Members Grid */}
-          {/* Board Of Directors */}
-         
+          {/* Board Of Directors - Top Row */}
           <div className={`mt-8 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6`}>
             {[
               { name: "Azeem Yaseen", role: "Board Of Director", image: BOD1 },
               { name: "Salman Mushtaq", role: "Board Of Director", image: BOD2 },
               { name: "Karim Jindani", role: "CEO", image: founder },
-              { name: "Osama Siraj", role: "Chief Technology Officer", image: CTO },
-              { name: "Sohail Hanif", role: "Head Of Operations", image: HOO },
-              { name: "Shakeel Ahmed", role: "Head Of Finance", image: HOF },
-            
             ].map((member, index) => (
               <motion.div
                 key={index}
                 className="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+              >
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-40 h-40 object-cover rounded-full border-4 border-[#007fcc] mb-4"
+                />
+                <h4 className="text-black text-lg font-semibold">{member.name}</h4>
+                <p className="text-gray-600">{member.role}</p>
+              </motion.div>
+            ))}
+          </div>
+          
+          {/* Bottom Row - Centered */}
+          <div className={`mt-8 flex justify-center gap-6 flex-wrap mx-auto px-4`}>
+            {[
+              { name: "Osama Siraj", role: "Chief Technology Officer", image: CTO },
+              { name: "Sohail Hanif", role: "Head Of Operations", image: HOO },
+            ].map((member, index) => (
+              <motion.div
+                key={index}
+                className="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 w-full sm:w-[80%] md:w-[45%] lg:w-[30%] max-w-[350px] mb-4"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
@@ -108,7 +127,16 @@ function Company() {
 
         
       </section>
-
+<motion.h3
+            className="text-black text-2xl font-bold text-center py-10  "
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
+           <h2 className={`${styles.heading2} text-black`}>
+            Our <span className="text-[#007fcc]">Workplace</span>
+          </h2>
+          </motion.h3>
 
       
       {/* Video Section */}

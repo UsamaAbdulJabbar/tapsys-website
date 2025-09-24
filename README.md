@@ -10,4 +10,4 @@
 ###✔ Innovative Payment Infrastructure
 
 🔗 Join us & explore our services!
-👉 www.tapsys.com
+👉 www.tapsys.net
